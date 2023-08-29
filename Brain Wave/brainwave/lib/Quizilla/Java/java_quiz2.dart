@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../Models/build_quiz_page.dart';
+import '../../pages/build_quiz_page.dart';
 import '../Models/question_model.dart';
 
 class JavaQuiz2 extends StatefulWidget {

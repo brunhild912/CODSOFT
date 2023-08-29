@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:brainwave/Quizilla/Models/build_quiz_page.dart';
+import 'package:brainwave/pages/build_quiz_page.dart';
 import 'package:flutter/material.dart';
 
 import '../Models/question_model.dart';

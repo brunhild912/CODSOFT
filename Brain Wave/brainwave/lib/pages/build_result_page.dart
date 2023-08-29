@@ -7,16 +7,16 @@ import 'package:brainwave/components/constants.dart';
 import 'package:brainwave/pages/python_page.dart';
 import 'package:flutter/material.dart';
 
-import '../../pages/dart_page.dart';
-import '../../pages/home_page.dart';
-import '../../pages/java_page.dart';
-import '../../pages/kotlin_page.dart';
-import '../Dart/dart_quiz1.dart';
-import '../Dart/dart_quiz2.dart';
-import '../Java/java_quiz1.dart';
-import '../Java/java_quiz2.dart';
-import '../Kotlin/kotlin_quiz1.dart';
-import '../Kotlin/kotlin_quiz2.dart';
+import 'dart_page.dart';
+import 'home_page.dart';
+import 'java_page.dart';
+import 'kotlin_page.dart';
+import '../Quizilla/Dart/dart_quiz1.dart';
+import '../Quizilla/Dart/dart_quiz2.dart';
+import '../Quizilla/Java/java_quiz1.dart';
+import '../Quizilla/Java/java_quiz2.dart';
+import '../Quizilla/Kotlin/kotlin_quiz1.dart';
+import '../Quizilla/Kotlin/kotlin_quiz2.dart';
 
 class ResultPage extends StatefulWidget {
   static const id = 'result_page';
@@ -81,7 +81,8 @@ class _ResultPageState extends State<ResultPage> {
                     mainPageRoute = HomePage.id;
                   }
 
-                  Navigator.popUntil(context, ModalRoute.withName(mainPageRoute));
+                  // Navigator.popUntil(context, ModalRoute.withName(mainPageRoute));
+                  Navigator.of(context).pushReplacementNamed(mainPageRoute);
                   },
                     icon: Icon(Icons.cancel)),
               ],

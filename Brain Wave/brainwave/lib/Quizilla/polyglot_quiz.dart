@@ -1,4 +1,4 @@
-import 'package:brainwave/Quizilla/Models/build_quiz_page.dart';
+import 'package:brainwave/pages/build_quiz_page.dart';
 import 'package:brainwave/components/constants.dart';
 import 'package:flutter/material.dart';
 

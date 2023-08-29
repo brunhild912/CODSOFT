@@ -2,15 +2,15 @@
 
 import 'dart:async';
 
-import 'package:brainwave/Quizilla/Models/build_result_page.dart';
+import 'package:brainwave/pages/build_result_page.dart';
 import 'package:brainwave/components/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_countdown_timer/current_remaining_time.dart';
 import 'package:flutter_countdown_timer/flutter_countdown_timer.dart';
-import 'question_widget.dart';
+import '../Quizilla/Models/question_widget.dart';
 
-import 'option_card.dart';
-import 'question_model.dart';
+import '../Quizilla/Models/option_card.dart';
+import '../Quizilla/Models/question_model.dart';
 
 class BuildQuizPage extends StatefulWidget {
   static const id = 'build_quiz_page';

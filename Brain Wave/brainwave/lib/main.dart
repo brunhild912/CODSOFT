@@ -2,8 +2,8 @@
 
 import 'package:brainwave/Quizilla/Dart/dart_quiz1.dart';
 import 'package:brainwave/Quizilla/Kotlin/kotlin_quiz1.dart';
-import 'package:brainwave/Quizilla/Models/build_quiz_page.dart';
-import 'package:brainwave/Quizilla/Models/build_result_page.dart';
+import 'package:brainwave/pages/build_quiz_page.dart';
+import 'package:brainwave/pages/build_result_page.dart';
 import 'package:brainwave/Quizilla/Python/python_quiz1.dart';
 import 'package:brainwave/Quizilla/polyglot_quiz.dart';
 import 'package:brainwave/pages/home_page.dart';

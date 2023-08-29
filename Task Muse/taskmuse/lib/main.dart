@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:taskmuse/screens/create_task_screen.dart';
 import 'package:taskmuse/screens/view_task_details_screen.dart';
 import 'package:taskmuse/screens/tasklist_screen.dart';

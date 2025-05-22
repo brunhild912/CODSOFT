@@ -1,5 +1,5 @@
 # CODSOFT
-Internship Program, Batch August 2023 - September 2023
+Remote Internship Program, Batch August 2023 - September 2023
 Includes Android App Development tasks assigned by CODSOFT during internship.
 **BRAIN WAVE: Unlock your programming genius with these quizzes!**
 
